@@ -43,22 +43,38 @@
 					<source src="_media/2009-lovers-carvings-bibio.mp4" type="audio/x-aac"/>
 					Desculpe, mas não foi possível carregar o áudio...
 					
-				/* para cada formato do audio será necessario inserir um <source>*/
+				<!--/* para cada formato do audio será necessario inserir um <source>*/ -->
 				</audio>
-				<video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
-				<source src="_media/getting-started.mp4" type="video/mp4">
+				<video id="filme" 
+				controls="controls" 
+				poster="_imagens/video-mini03.jpg">
+
+				<source src="_media/getting-started.mp4" 
+				type="video/mp4">
 				Desculpe, mas não foi possível carregar o áudio...
 				
 				/* para cada formato do video será necessario inserir um <source>*/
 				</video>
 				</div>
-				/* para inserir um arquivo de uma plataforma de video seguir os passos:*/
+				<!--/* para inserir um arquivo de uma plataforma de video seguir os passos:*/
 				/* - selecionar o video*/
 				/* - selecionar a opcao partilhar*/
 				/* - selecionar a opcao incorporar*/
-				/* - copiar o link e colar no codigo*/
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				
+				/* - copiar o link e colar no codigo*/-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/4EvNxWhskf8" 
+				title="YouTube video player" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen>
+				</iframe>
+
+				<!-- iframe para inserir um conteúdo local (pagina ou video interno )-->
+				<iframe src="index.html" frameborder="0"></iframe>
+
+				<!--scolling="auto/yes/no" 	auto = quando o conteudo for maior que a definida no ifreme o navegador cria uma barra de rolagem
+											yes  = O navegador cria uma barra de rolagem independete do tamanho do ifreme
+											no 	 = O ifreme segue o tamanho definido pela css, não criando barra de rolagem independente do tamanho definido pela css -->
+
 			</article>
 		</section>
 	<footer id="rodape">
